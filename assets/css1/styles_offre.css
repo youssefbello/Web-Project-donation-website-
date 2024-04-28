@@ -1,0 +1,45 @@
+
+/* Styles pour les formulaires */
+.formulaire_offre {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* Styles pour le bouton "Créer l'enchère" */
+#creer {
+    background: linear-gradient(45deg, #50A060, #3B8050);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+#creer:hover {
+    background: linear-gradient(45deg, #3B8050, #50A060);
+    transform: scale(1.05);
+}
